@@ -109,7 +109,9 @@ class _SpeechtoTextState extends State<SpeechtoText> {
                   CircleAvatar(
                     radius: 30,
                     child: IconButton(
-                      onPressed: (){},
+                      onPressed: (){
+                        textSpeech = "";
+                      },
                       icon: const Icon(Icons.delete_outline_rounded),
                     ),
                   )
